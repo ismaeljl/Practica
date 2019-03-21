@@ -7,11 +7,23 @@ public class Array {
 		rellenaArray(array);
 		
 	}
-	
+	/**
+	 * Rellena array
+	 */
 	public static void rellenaArray(int[] array) {
 		
 		for(int i = 0; i < array.length; i++) {
 			array[i]= (int) Math.round(Math.random()*20);
+		}
+		
+	}
+	/**
+	 * Imprima array
+	 */
+	public static void imprimeArray(int[] array) {
+		
+		for(int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
 		}
 		
 	}
